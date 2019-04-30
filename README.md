@@ -1,4 +1,4 @@
-# Scripting 2019 - UNSAM Universidad Nacional de San Martín
+# Scripting - UNSAM - 2019
 Scripts en python desarrollados por los alumnes de unsam, turno matutino y vespertino
 
 ## Apuntes:
