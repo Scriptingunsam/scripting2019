@@ -1,5 +1,5 @@
 # Scripting - UNSAM - 2019
-Scripts en python desarrollados por los alumnes de unsam, turno matutino y vespertino
+Scripts en python desarrollados por los alumn@s de la Tecnicatura en Animación y Efectos Especiales de UNSAM, turno matutino y vespertino.
 
 ## Apuntes:
 Block de notas Jupyter con apuntes teóricos.
@@ -14,4 +14,4 @@ Scripts para Maya. python 2.7
 Scripts para Nuke. python 2.7
 
 ## TPfinal:
-Scripts de implementación para producción. 
+Scripts de implementación para producción.
