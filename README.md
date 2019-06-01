@@ -4,17 +4,18 @@ Scripts en python desarrollados por los alumn@s de la Tecnicatura en Animación 
 ## Apuntes:
 Block de notas Jupyter con apuntes teóricos.
 
-## Tools para windows: 
+## Tools/scripts para windows: 
 Scripts para windows 10. python 3.7
 
-## Tools para MAYA:
+## Tools/scripts para MAYA:
 Scripts para Maya 2019. python 2.7
+- AutoRetopo 3.1.2 - autor: Manuel Jofre 
 
-## Tools para NUKE: 
+## Tools/scripts para NUKE: 
 Scripts para Nuke 11.3. python 2.7
 
-## Tools para HOUDINI: 
+## Tools/scripts para HOUDINI: 
 Scripts para Houdini 17.5. python 2.7
 
-## Tools de pipeline:
+## Tools/scripts de pipeline:
 Scripts de implementación para producción.

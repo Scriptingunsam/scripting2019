@@ -1,0 +1,92 @@
+   _____          __        __________        __                        
+  /  _  \  __ ___/  |_  ____\______   \ _____/  |_  ____ ______   ____  
+ /  /_\  \|  |  \   __\/  _ \|       _// __ \   __\/  _ \\____ \ /  _ \ 
+/    |    \  |  /|  | (  <_> )    |   \  ___/|  | (  <_> )  |_> >  <_> )
+\____|__  /____/ |__|  \____/|____|_  /\___  >__|  \____/|   __/ \____/ 
+ v3.1.2 \/ C5-Scr Manuel Jofre Poza \/ TP2 \/  Python to |__| Maya
+
+//la nomenclatura dada no se utilizo para evitar problemas en los archivos.
+
++Install:
+
+	Descomprimir el archivo en la carpeta:
+	C:\Users\...\Documents\maya\scripts
+
+	Arrastrar el archivo "installAR.py" en el viewport de Maya 
+	se crea automatico el boton AutoRetopo en el shelf activo
+
+	Hacer click en el icono del AutoRetopo y tienes andando el script
+
++Descripcion:
+	
+	el script permite tener una interface comoda de trabajo para hacer
+	retopologia automatica. se recomienda siempre usar Re-Mesh antes
+	de usar el Re-Topo.
+
++Por hacer:
+
+	el script funciona correctamente y esta probado en:
+	windows 10 maya 2018. deveria probarce en otras maquinas y 
+	verciones de maya.
+
+	se me ocurrio luego que el script solo mande el cuadro de alerta
+	despues de considerar la cantidad de poligonos a trabajar. puede
+	que se agregue en la siguiente vercion.
+
+--------------------------------------------------------------------------
+
++Seudo Codigo:
+	
+	- Instalador (installAR) :
+		- informa el tipo de codificacion
+		- importa y simplifica bibliotecas
+		- define posicion de archivos
+		- evalua cual el el shelf activo y lo seleciona
+		- crea boton de shelf personalizado
+
+	- script (AutoRetopo):
+		- informa el tipo de codificacion
+		- importa y simplifica bibliotecas
+		- define variables y posicion de archivos
+		- define funciones de los botones:
+			-defaultBooleanPush: fuciona y limpia los elementos
+			a trabajar (importante para el correcto
+			funcionamiento de las acciones principales)
+			-boolean..Push: abren las ventanas de opciones para
+			un mayor control en como se fucionan los elementos.
+			-reMeshPush: avisa y consulta sobre lo largo que 
+			puede resultar la tarea antes de comenzar a regenerar
+			la geometria utilizando triangulos.
+			-reTopoPush: funcion principal del script. luego de
+			avisar y consultar sobre lo arduo de la tarea regenera
+			toda la topologia seleccionada utilizando Quads y 
+			respetando los bordes duros.
+		- Crear ventana para menu interactivo
+		- llamar imagen para ilustrar el script
+		- acomodar estructura de ventana para anidar botones
+		- crear los botones de booleans
+		- acomodar estructura de ventana para anidar botones
+		- crear botones Re-*
+		- acomodar estructura de ventana para anidar botones
+		- crear boton de borrado de historial
+		- crear linea de ayuda.
+		- llamar ventana.
+
+
++Seudo Codigo primera vercion:
+
+	- Dar opciones para fucionar todos los elementos (para eliminar
+	caras internas y limpiar los elementos para el Re-Mesh)
+	- Utilizar por boton la funcion de regenerar modelado con Triangulos
+	- Avisar y pedir confirmacion antes de empezar la larga tarea
+	- Utilizar por boton la funcion de regenerar modelado con Quads
+	- Avisar y pedir confirmacion antes de empezar la larga tarea
+	- Tener a mano un limpiador de Historial para terminar la tarea
+	- Darle al usuario ayuda escrita de lo que se hace.
+	
+	
+
+	
+
+
+
